@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Travel</string>
+    <string name="hintDiaChi">Địa chỉ KH</string>
+    <string name="hintTenKH">Tên KH</string>
+    <string name="hintSoDT">Số ĐT KH</string>
+    <string name="btnThem">Thêm</string>
+    <string name="hintMaKH">Mã KH</string>
+    <string name="tvID">1</string>
+    <string name="trangKH">Danh sách khách hàng</string>
+    <string name="btnLuu">Lưu</string>
+    <string name="btnXoa">Xóa</string>
+    <string name="btnXoaTatCa">Xóa tất cả</string>
+    <string name="noData">Không có dữ liệu</string>
+    <string name="contentDesNoData">imageNoData</string>
+    <string name="btnTimKiem">Tìm kiếm</string>
+    <string name="khachhang">Khách Hàng</string>
+    <string name="phieudangky">Thẻ thành viên</string>
+    <string name="dstour">DS Tour</string>
+    <string name="ctphieu">Vé Đăng Ký</string>
+    <string name="titleThemKH">Thêm khách hàng</string>
+    <string name="alertSuccess">Thành công</string>
+    <string name="alertNull">Vui lòng nhập đủ</string>
+    <string name="titleSuaKH">Sửa khách hàng</string>
+    <string name="confirmDeleteTitle">"Xóa "</string>
+    <string name="confirmDeleteMessage">"Bạn có chắc muốn xóa: "</string>
+    <string name="confirmYes">Có</string>
+    <string name="confirmNo">Không</string>
+    <string-array name="hintArrayMaKH">
+        <item>KH01</item>
+        <item>KH02</item>
+    </string-array>
+    <string-array name="hintArrayMaTour">
+        <item>T01</item>
+        <item>T02</item>
+    </string-array>
+</resources>

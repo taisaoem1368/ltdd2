@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GiaoDien.ActivitySuaTour"
+    android:padding="30dp">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <EditText
+            android:id="@+id/suaMaTour"
+            style="@style/txtTextStyle"
+            android:hint="Mã tour"
+            android:autofillHints="Mã tour" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <EditText
+            android:id="@+id/suaLoTrinhTour"
+            style="@style/txtTextStyle"
+            android:hint="Lộ trình tour"
+            android:autofillHints="Lộ trình tour" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <EditText
+            android:id="@+id/suaHanhTrinhTour"
+            style="@style/txtTextStyle"
+            android:hint="Hành trình tour"
+            android:autofillHints="Hành trình tour" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <EditText
+            android:id="@+id/suaGiaTour"
+            style="@style/txtNumberStyle"
+            android:hint="Giá tour"
+            android:autofillHints="Giá tour" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/save_button_tour"
+        style="@style/btnStyle"
+        android:text="@string/btnLuu"/>
+
+    <Button
+        android:id="@+id/delete_button_tour"
+        style="@style/btnStyle"
+        android:text="@string/btnXoa"
+        android:textColor="@color/orangedark"/>
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/mainLayoutKH">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        style="@style/cardView">
+        <LinearLayout
+            style="@style/ItemListStyle">
+            <TextView
+                android:id="@+id/tvIDKH"
+                style="@style/tvID"
+                android:text="@string/tvID" />
+            <ImageView
+                android:id="@+id/imgIDKH"
+                style="@style/imgID" />
+
+            <LinearLayout
+                style="@style/ItemListStyleInformation">
+                <TextView
+                    android:id="@+id/tvMaKH"
+                    style="@style/tvMa"
+                    android:text="@string/hintMaKH" />
+
+                <TextView
+                    android:id="@+id/tvTenKH"
+                    style="@style/tvDuoi"
+                    android:text="@string/hintTenKH" />
+
+                <TextView
+                    android:id="@+id/tvDiaChi"
+                    style="@style/tvDuoi"
+                    android:text="@string/hintDiaChi"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

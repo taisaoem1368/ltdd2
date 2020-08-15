@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/mainLayoutTour">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewDsTour"
+        style="@style/cardView">
+
+        <LinearLayout
+            style="@style/ItemListStyle" >
+
+            <TextView
+                android:id="@+id/tvIDTour"
+                style="@style/tvID"
+                android:text="@string/tvID" />
+            <ImageView
+                android:id="@+id/imgIDTour"
+                style="@style/imgID" />
+
+            <LinearLayout
+                style="@style/ItemListStyleInformation" >
+                <TextView
+                    android:id="@+id/tvMaTour"
+                    style="@style/tvMa"
+                    android:text="Mã Tour" />
+
+                <TextView
+                    android:id="@+id/tvLoTrinh"
+                    style="@style/tvDuoi"
+                    android:text="Lộ Trình" />
+
+                <TextView
+                    android:id="@+id/tvHanhTrinh"
+                    style="@style/tvDuoi"
+                    android:text="Hành Trình" />
+
+                <TextView
+                    android:id="@+id/tvGiaTour"
+                    style="@style/tvDuoi"
+                    android:text="Giá Tiền" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

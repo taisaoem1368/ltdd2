@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GiaoDien.ActivityThemPhieuDK"
+    android:padding="30dp">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/nhapSoPhieu"
+            style="@style/txtTextStyle"
+            android:hint="Mã số phiếu"
+            android:autofillHints="Mã số phiếu" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/nhapNgayDangKy"
+            style="@style/txtTextStyle"
+            android:hint="Ngày đăng ký"
+            android:autofillHints="Ngày đăng ký" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/nhapSoNguoi"
+            style="@style/txtNumberStyle"
+            android:hint="Số người"
+            android:autofillHints="Số người" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/nhapSpinnerMaKH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:entries="@array/hintArrayMaKH"
+        android:layout_gravity="center_horizontal"/>
+    <Spinner
+        android:id="@+id/nhapSpinnerMaTour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:entries="@array/hintArrayMaTour"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/add_button_phieudk"
+        style="@style/btnStyle"
+        android:text="@string/btnThem"/>
+</LinearLayout>
